@@ -1,6 +1,6 @@
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About This Repo
 
 I'm using this repo to work on AI-related projects. The goal is to learn how to use local open-source LLMs and finetune them with domain-specific data.
 
