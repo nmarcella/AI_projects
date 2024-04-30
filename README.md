@@ -22,7 +22,7 @@ The first project is called LLM_with_memory. Here, the goal is to start learning
 
 In my second project, I'm building a functional application on top of OLLAMA. The goal of my application is to use the multimodal vision/text capabilities of the LLaVa model to analyze a video camera feed and determine whether or not my dogs are on the couch :).
 
-1. I'm using a Google Collab instance to run OLLAMA on a T4 GPU.
-2. ngrok is used to make the Collab instance accessible on the internet.
+1. I'm using a remote [Google Collab](https://colab.google/) instance to run OLLAMA on a T4 GPU. Thanks to [Tech With Marco](https://www.youtube.com/watch?v=Qa1h7ygwQq8)
+2. [ngrok](https://ngrok.com/) is used to make the Collab instance accessible on the internet.
 3. The GPU_server.ipynb is used to setup OLLAMA on the GPU and forward with ngrok.
 4. The Camera_dog_test.ipynb notebook is where the magic happens.
