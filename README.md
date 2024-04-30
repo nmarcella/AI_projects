@@ -12,7 +12,7 @@ My local setup:
 <!-- GETTING STARTED -->
 ## Project 1: Getting Started
 
-The first project is called LLM_with_memory. Here, the goal is to start learning how to use and build on top of OLLAMA. I'll be taking inspiration from [Matthew Berman](https://www.youtube.com/watch?v=rIRkxZSn-A8&list=PLYeQgFYNGJtJ5k37wkeQGjMoHtbEXp4Sv)
+The first project is called [LLM_with_memory](https://github.com/nmarcella/AI_projects/tree/main/LLM_with_memory). Here, the goal is to start learning how to use and build on top of OLLAMA. I'll be taking inspiration from [Matthew Berman](https://www.youtube.com/watch?v=rIRkxZSn-A8&list=PLYeQgFYNGJtJ5k37wkeQGjMoHtbEXp4Sv)
 
 1. The modelfile was created to create a mistral-based LLM with a custom temperature and system prompt. In this case, I'm attempting to convince the LLM that it is a nanomaterials scientist.
 2. main.py utilizes gradio to launch a chat with this LLM.
@@ -20,7 +20,7 @@ The first project is called LLM_with_memory. Here, the goal is to start learning
 
 ## Project 2: Applying what I've learned so far.
 
-In my second project, I'm building a functional application on top of OLLAMA. The goal of my application is to use the multimodal vision/text capabilities of the LLaVa model to analyze a video camera feed and determine whether or not my dogs are on the couch :).
+In my second project, I'm building a functional application called [Dog Detector](https://github.com/nmarcella/AI_projects/tree/main/Dog_Detector) on top of OLLAMA. The goal of my application is to use the multimodal vision/text capabilities of the LLaVa model to analyze a video camera feed and determine whether or not my dogs are on the couch :).
 
 1. I'm using a remote [Google Collab](https://colab.google/) instance to run OLLAMA on a T4 GPU. Thanks to [Tech With Marco](https://www.youtube.com/watch?v=Qa1h7ygwQq8)
 2. [ngrok](https://ngrok.com/) is used to make the Collab instance accessible on the internet.
