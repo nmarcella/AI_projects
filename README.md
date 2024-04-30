@@ -17,3 +17,12 @@ The first project is called LLM_with_memory. Here, the goal is to start learning
 1. The modelfile was created to create a mistral-based LLM with a custom temperature and system prompt. In this case, I'm attempting to convince the LLM that it is a nanomaterials scientist.
 2. main.py utilizes gradio to launch a chat with this LLM.
 3. the converation_history list stores the conversation's history. This is eventually limited by the maximum number of tokens.
+
+## Project 2: Applying what I've learned so far.
+
+In my second project, I'm building a functional application on top of OLLAMA. The goal of my application is to use the multimodal vision/text capabilities of the LLaVa model to analyze a video camera feed and determine whether or not my dogs are on the couch :).
+
+1. I'm using a Google Collab instance to run OLLAMA on a T4 GPU.
+2. ngrok is used to make the Collab instance accessible on the internet.
+3. The GPU_server.ipynb is used to setup OLLAMA on the GPU and forward with ngrok.
+4. The Camera_dog_test.ipynb notebook is where the magic happens.
