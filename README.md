@@ -26,3 +26,5 @@ In my second project, I'm building a functional application on top of OLLAMA. Th
 2. [ngrok](https://ngrok.com/) is used to make the Collab instance accessible on the internet.
 3. The GPU_server.ipynb is used to setup OLLAMA on the GPU and forward with ngrok.
 4. The Camera_dog_test.ipynb notebook is where the magic happens.
+
+<img src="https://raw.githubusercontent.com/nmarcella/AI_projects/main/Dog_Detector/src/common/images/test1.webp" width="300" height="300" alt="alt text">
